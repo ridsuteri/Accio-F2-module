@@ -37,7 +37,8 @@ divElement.innerText = "I am a newly created div";
 
 
 //*************4. adding somthing to the page ***********/
-Element.append(divElement);
+Element.append("I am added using append method");
+Element.appendChild(divElement);
 
 
 // *************5. removing somthing from the page ***********/
@@ -55,5 +56,10 @@ element.id = "idName";
 element.classList;
 
 
-// *************7. altering the stylels ***********/
+// *************7. altering the styles ***********/
+Element.style.backgroundColor = "red";
 
+
+
+// *************8. adding event listeners ***********/
+element.addEventListener('event', func);
