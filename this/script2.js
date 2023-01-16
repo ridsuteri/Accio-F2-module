@@ -7,7 +7,8 @@ let instructor = {
     lname: "Suteri",
     module: "JS",
 }
-
+// instructor.printInfo = printInfo;
+console.log(instructor)
 let student = {
     fname: "Alpha",
     lname: "Kumar",
@@ -29,12 +30,12 @@ let team = {
 
 // syntax of writing a call function
 // <method_you_want_to_borrow>.call(<object_where_you_want_to_borrow_it>,arguments)
-// printInfo.call(student, student.marks)
+printInfo.call(student, 1000)
 
 
 // syntax of writing a apply function
 // <method_you_want_to_borrow>.apply(<object_where_you_want_to_borrow_it>, [arguments])
-// printInfo.apply(student, [student.marks])
+printInfo.apply(student, [student.marks])
 
 
 // syntax of writing a bind function

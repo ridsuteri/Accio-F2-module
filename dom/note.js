@@ -12,6 +12,8 @@ document.getElementsByClassName("heading-class")[2];
 
 //3. select something by the elements Tag names
 document.getElementsByTagName("h1");
+// document.querySelector(".heading1");
+// document.querySelectorAll();
 
 
 
@@ -54,11 +56,12 @@ element.id = "idName";
 
 // for classes
 element.classList;
+// element.classList.add('class-name');
+// element.classList.remove('class-name');
 
 
 // *************7. altering the styles ***********/
 Element.style.backgroundColor = "red";
-
 
 
 // *************8. adding event listeners ***********/

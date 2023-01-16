@@ -1,6 +1,6 @@
 // object literal
 
-
+// let o = new Object({ name: "John", age: 20 }); // this is the same as the object literal below
 // factory function to create objects 
 // naming convention of the function is camelCase
 function createStudent(fname, rollno, marks, grade) {

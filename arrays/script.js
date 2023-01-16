@@ -65,6 +65,7 @@ arr3 = [...arr, ...arr2] // [10,20,30,a,b,c]
 // }
 // });
 
+// let arr = result:
 // simplest way of writing a filter function
 // let result = arr.filter(item => item > 50);
 
